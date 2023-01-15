@@ -94,7 +94,7 @@ app.use(fileUpload({
 }));
 
 app.use('/auth',userRoutes);
-app.use(bodyParser.urlencoded({ extended: true }));
+
 app.use(pageNotFound);
 app.use(errorHandler);
 
